@@ -1,0 +1,40 @@
+2024-04-04 04:57:05,799 INFO    MainThread:16484 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-04-04 04:57:05,799 INFO    MainThread:16484 [wandb_setup.py:_flush():76] Configure stats pid to 16484
+2024-04-04 04:57:05,799 INFO    MainThread:16484 [wandb_setup.py:_flush():76] Loading settings from C:\Users\valer\.config\wandb\settings
+2024-04-04 04:57:05,799 INFO    MainThread:16484 [wandb_setup.py:_flush():76] Loading settings from c:\Users\valer\Desktop\mmp_courses\ml\sem. 6\tasks\2.optimization\wandb\settings
+2024-04-04 04:57:05,800 INFO    MainThread:16484 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-04 04:57:05,800 INFO    MainThread:16484 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-04 04:57:05,800 INFO    MainThread:16484 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-04 04:57:05,801 INFO    MainThread:16484 [wandb_init.py:_log_setup():526] Logging user logs to c:\Users\valer\Desktop\mmp_courses\ml\sem. 6\tasks\2.optimization\wandb\run-20240404_045705-2rbd4jdo\logs\debug.log
+2024-04-04 04:57:05,801 INFO    MainThread:16484 [wandb_init.py:_log_setup():527] Logging internal logs to c:\Users\valer\Desktop\mmp_courses\ml\sem. 6\tasks\2.optimization\wandb\run-20240404_045705-2rbd4jdo\logs\debug-internal.log
+2024-04-04 04:57:05,801 INFO    MainThread:16484 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002028E493730>
+2024-04-04 04:57:05,802 INFO    MainThread:16484 [wandb_init.py:init():566] calling init triggers
+2024-04-04 04:57:05,802 INFO    MainThread:16484 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-04-04 04:57:05,802 INFO    MainThread:16484 [wandb_init.py:init():616] starting backend
+2024-04-04 04:57:05,802 INFO    MainThread:16484 [wandb_init.py:init():620] setting up manager
+2024-04-04 04:57:05,826 INFO    MainThread:16484 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-04-04 04:57:05,831 INFO    MainThread:16484 [wandb_init.py:init():628] backend started and connected
+2024-04-04 04:57:05,866 INFO    MainThread:16484 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-04-04 04:57:05,866 INFO    MainThread:16484 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-04 04:57:05,866 INFO    MainThread:16484 [wandb_init.py:init():720] updated telemetry
+2024-04-04 04:57:05,869 INFO    MainThread:16484 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-04-04 04:57:06,681 INFO    MainThread:16484 [wandb_run.py:_on_init():2262] communicating current version
+2024-04-04 04:57:07,151 INFO    MainThread:16484 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-04 04:57:07,151 INFO    MainThread:16484 [wandb_init.py:init():804] starting run threads in backend
+2024-04-04 04:57:26,525 INFO    MainThread:16484 [wandb_run.py:_console_start():2241] atexit reg
+2024-04-04 04:57:26,525 INFO    MainThread:16484 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-04-04 04:57:26,525 INFO    MainThread:16484 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-04-04 04:57:26,525 INFO    MainThread:16484 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-04-04 04:57:26,526 INFO    MainThread:16484 [wandb_init.py:init():847] run started, returning control to user process
+2024-04-04 04:58:25,794 INFO    MainThread:16484 [wandb_run.py:_finish():1970] finishing run valera_zykov/mmro_mmp/2rbd4jdo
+2024-04-04 04:58:25,796 INFO    MainThread:16484 [jupyter.py:save_history():445] not saving jupyter history
+2024-04-04 04:58:25,797 INFO    MainThread:16484 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-04 04:58:25,797 INFO    MainThread:16484 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-04-04 04:58:25,798 INFO    MainThread:16484 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-04-04 04:58:25,799 INFO    MainThread:16484 [wandb_run.py:_restore():2193] restore
+2024-04-04 04:58:25,799 INFO    MainThread:16484 [wandb_run.py:_restore():2199] restore done
+2024-04-04 04:58:31,807 INFO    MainThread:16484 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-04-04 04:58:31,809 INFO    MainThread:16484 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-04-04 04:58:31,817 INFO    MainThread:16484 [wandb_run.py:_footer_sync_info():3810] logging synced files
